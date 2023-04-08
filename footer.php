@@ -3,7 +3,7 @@
         <div class="container-fluid bg-dark p-1">
             <div class="row">
                 <div class="col">
-                    <h2 class="text-light" style="font-family: 'Righteous', cursive;">Developed by Sazon Mahmud</h2>
+                    <h2 class="text-light h5" style="font-family: 'Righteous', cursive;">Developed by Sazon Mahmud</h2>
                 </div>
             </div>
         </div>

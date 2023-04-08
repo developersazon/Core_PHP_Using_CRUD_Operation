@@ -14,10 +14,10 @@
 
 <!-- form section start here -->
 <div id="form" class="my-4">
-    <div class="container p-3 shadow">
+    <div class="container px-4 py-3 shadow">
         <div class="row">
              <form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>" enctype="multipart/form-data">
-                <p class="text-center h4" style="font-family: 'Righteous', cursive;">Create New User Now</p>
+                <p class="text-center h2" style="font-family: 'Righteous', cursive;">Create New User Now</p>
                 <div class="mb-1">
                     <span style="color:red;"><?php if(isset($return_MSG)){ echo $return_MSG; } ?></span><br>
                     <label for="nameid" class="form-label"><strong>Name:</strong></label>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="div mt-3">
                     <input class="btn bg-success text-light" type="submit" name="savenow" value="Submit Data">
-                    <a href="index.php" class="btn bg-danger text-light">Cancel Now!</a>
+                    <a href="index.php" class="btn bg-danger ms-3 text-light">Cancel Now!</a>
                 </div>
             </form>
         </div>

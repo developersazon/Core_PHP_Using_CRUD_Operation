@@ -34,9 +34,8 @@
 
 <!-- clients data start here -->
 <div class="data">
-    <div class="container my-3">
+    <div class="container py-3">
         <div class="row">
-            <div class="col">
             <span style="color:green;"><?php if(isset($delete_MSG)) { echo $delete_MSG; } ?></span>
                 <table class="table table-hover shadow">
                     <thead>
@@ -64,12 +63,11 @@
                                 <td><?php echo $read['address'] ?></td>
                                 <td>
                                     <a class="btn btn-success" href="edit.php?update_id= <?php echo $read['id']; ?>">Update</a>    
-                                    <a class="btn btn-danger" onclick="return confirm('Are you sure want to delete this Data !')" href="?delete_id= <?php echo $read['id']; ?>">Delete</a>    
+                                    <a class="btn btn-danger ms-2" onclick="return confirm('Are you sure want to delete this Data !')" href="?delete_id= <?php echo $read['id']; ?>">Delete</a>    
                                 </td>
                             </tr><?php } ?> 
                     </tbody>
                 </table>
-            </div>
         </div>
     </div>
 </div>
